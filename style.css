@@ -117,3 +117,15 @@ span{
 	color: #ff0075;
 	
 }
+
+.bee-img {
+	position: absolute;
+	z-index: 1;
+	width: 30%;
+	transform: translateX(1000px);
+	transition: transform 1s ease;
+}
+
+.bee-active {
+	transform: translate3d(280px, 45px, 0px);
+}
